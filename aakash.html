@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fb;
+      display: flex;
+    }
+
+    /* Navigation Menu */
+    nav {
+      width: 200px;
+      background-color: #4caf50;
+      position: fixed;
+      height: 100%;
+      top: 0;
+      left: 0;
+      padding-top: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    nav a {
+      display: block;
+      color: white;
+      margin: 10px 0;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    nav a:hover {
+      background-color: #388e3c;
+    }
+
+    /* Main Content Section */
+    .container {
+      margin-left: 220px;
+      width: calc(100% - 220px);
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    /* Skills Section */
+    #skills ul {
+      list-style: disc;
+      margin-left: 40px;
+      padding: 0;
+    }
+
+    #skills ul li {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    /* Certificates Section */
+    #certificates {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .certificate-tab {
+      background-color: #ffffff;
+      padding: 10px;
+      border-radius: 5px;
+      width: 150px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .certificate-image {
+      max-width: 100%;
+      max-height: 300px;
+      margin-top: 10px;
+      display: block;
+    }
+
+    /* Education Section */
+    #education p {
+      font-size: 18px;
+    }
+
+    /* Contact Section */
+    #contact p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Main Content Section -->
+  <div class="container">
+    <!-- About Me Section -->
+    <section id="about">
+      <h1>About Me</h1>
+      <p> Hello, I'm Aakash, a recent graduate with a strong passion for data analysis. Throughout my academic journey, I've developed a deep interest in transforming raw data into meaningful insights that can drive decision-making and solve complex problems. I'm excited to begin my career in data analysis and contribute to a team that uses data to create innovative solutions.With a solid foundation in data analysis techniques and tools, I’m eager to apply my skills to real-world challenges. I’m particularly interested in using data to uncover patterns, improve processes, and support informed decision-making. I’m ready to take on new challenges and contribute to a dynamic and forward-thinking team. </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h1>Skills</h1>
+      <ul>
+        <li>Excel</li>
+        <li>Python Programming</li>
+        <li>Tableau</li>
+        <li>Data Visualization</li>
+        <li>Critical Thinking</li>
+        <li>Machine Learning</li>
+        <li>Problem Solving</li>
+        <li>SQL</li>
+        <li>Presentation Skills</li>
+      </ul>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates">
+      <h1>Certificates</h1>
+      <div class="certificate-tab">
+        Certificate 1
+        <img class="certificate-image" src="https://courses.ibmcep.cognitiveclass.ai/certificates/ecb60a66c71e413ea3f206700b4fa4d9” alt=“Certificate 1”>
+      </div>
+      <div class="certificate-tab">
+        Certificate 2
+        <img class="certificate-image" src="https://courses.ibmcep.cognitiveclass.ai/certificates/2e659d9966ca4e74b7dbfa0dbca0bb7a" alt="Certificate 2">
+      </div>
+      <div class="certificate-tab">
+        Certificate 3
+        <img class="certificate-image" src="https://courses.ibmcep.cognitiveclass.ai/certificates/1febd18097ed4becbd788c631def53b7" alt="Certificate 3">
+      </div>
+    </section>
+
+<!-- Education Section -->
+    <section id="education">
+      <h1>Education</h1>
+      <p><strong>Corporation Higher Secondary School(HSC):</strong> 56%</p>
+      <p><strong>College:</strong> Mgr University - 80%</p>
+      <p>Bachelor of Computer Application and Data Science</p>
+      <p>2021-2025</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h1>Contact</h1>
+      <p>Name: Aakash</p>
+      <p>Phone: 7305013823</p>
+      <p>Email: aakashyoganandan@gmail.com</p>
+    </section>
+  </div>
+
+</body>
+</html>
